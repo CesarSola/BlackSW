@@ -1,0 +1,30 @@
+
+
+.clima {
+    position: relative;
+    width: 300px;
+    height: 305px;
+    background:  #4e73df;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    color: #ffffff; /* Agregamos color blanco al texto */
+}
+.weather-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+  
